@@ -2,5 +2,6 @@
 !/mlruns
 /mlruns/*
 !/mlruns/models
+*.yaml
 !/.gitignore
 
