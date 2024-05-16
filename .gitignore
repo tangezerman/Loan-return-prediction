@@ -1,0 +1,6 @@
+/*
+!/mlruns
+/mlruns/*
+!/mlruns/models
+!/.gitignore
+
