@@ -1,6 +1,5 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
@@ -18,7 +17,6 @@ mlflow.set_experiment('Loan Repayment Prediction')
 
 # Define models
 models = {
-    "Logistic_Regression": LogisticRegression(max_iter=1000),
     "Random_Forest": RandomForestClassifier(random_state=42),
     "Decision_Tree": DecisionTreeClassifier(random_state=42),
     "XGBoost": xgb.XGBClassifier(random_state=42, use_label_encoder=False, eval_metric='logloss')
