@@ -3,5 +3,7 @@
 /mlruns/*
 !/mlruns/models
 *.yaml
+!/batches/
+!*.ipynb
 !/.gitignore
 
