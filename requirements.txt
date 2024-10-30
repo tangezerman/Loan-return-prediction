@@ -1,7 +1,7 @@
-mlflow
-xgboost
-pandas
-seaborn
-imbalanced-learn
-scikit-learn
-hyperopt
+mlflow==2.17.1
+xgboost==2.1.2
+pandas==2.2.3
+seaborn==0.13.2
+imbalanced-learn==0.12.4
+scikit-learn==1.5.2
+hyperopt==0.2.7
